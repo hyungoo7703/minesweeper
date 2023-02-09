@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mineBoard {
+  margin-top: 10px;
+}
+
+.mineBoard table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mineBoard table tr td {
+  width: 50px;
+  height: 50px;
+}
